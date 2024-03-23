@@ -11,5 +11,5 @@ lint:
 run:
 	python main.py
 .PHONY: test
-test:CRLF
+test:
 	PYTHONPATH=. py.test --verbose -s
